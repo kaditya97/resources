@@ -1,0 +1,119 @@
+{
+    "name": "Survey",
+    "description": "Survey Questions",
+    "version": "1.0",
+    "author": "Aditya Kushwaha",
+    "author_email": "kaditya9711@gmail.com",
+    "questions": [
+        {
+            "question_en": "A well-conditioned triangle should not have angles more than",
+            "options_en": [
+                "30°",
+                "120°",
+                "45°",
+                "60°"
+            ],
+            "answer_en": "120°"
+        },
+        {
+            "question_en": "Offsets are",
+            "options_en": [
+                "short measurements from the chain line",
+                "ties or check lines which are perpendicular to the chain line",
+                "chain lines which go out of alignment",
+                "Both a and b"
+            ],
+            "answer_en": "Both a and b"
+        },
+        {
+            "question_en": "Oblique offsets are used to",
+            "options_en": [
+                "locate broken boundaries",
+                "locate boundary lines of property",
+                "check the accuracy of the plotted work in chain survey",
+                "plot the chainage"
+            ],
+            "answer_en": "locate boundary lines of property"
+        },
+        {
+            "question_en": "Tellurometer is an instrument used for",
+            "options_en": [
+                "GPS",
+                "EMR",
+                "GTS",
+                "EDM"
+            ],
+            "answer_en": "EDM"
+        },
+        {
+            "question_en": "A declination of 3° east means",
+            "options_en": [
+                "magnetic north is 3° east of true north",
+                "magnetic north is 3° west of true north",
+                "true north is 3° east of magnetic north",
+                "true south is 3° east of magnetic south"
+            ],
+            "answer_en": "magnetic north is 3° east of true north"
+        },
+        {
+            "question_en": "The temporary adjustments of surveyor compass involves",
+            "options_en": [
+                "centring only",
+                "levelling only",
+                "centring and levelling",
+                "centring, levelling and focussing the prism"
+            ],
+            "answer_en": "centring and levelling"
+        },
+        {
+            "question_en": "Which of the following reference direction is used in a geodetic survey?",
+            "options_en": [
+                "True",
+                "Magnetic",
+                "Arbitrary",
+                "Any of these"
+            ],
+            "answer_en": "True"
+        },
+        {
+            "question_en": "Which of the following compass can be used without a tripod for observing bearings?",
+            "options_en": [
+                "Trough compass",
+                "Prismatic compass",
+                "Surveyor's compass",
+                "All of these"
+            ],
+            "answer_en": "Prismatic compass"
+        },
+        {
+            "question_en": "The value of dip at the magnetic pole is",
+            "options_en": [
+                "0°",
+                "45°",
+                "90°",
+                "30°"
+            ],
+            "answer_en": "90°"
+        },
+        {
+            "question_en": "The lines joining points of equal dip are called",
+            "options_en": [
+                "aclinic lines",
+                "isogonic lines",
+                "agonic lines",
+                "isoclinic lines"
+            ],
+            "answer_en": "isoclinic lines"
+        },
+        {
+            "question_en": "The difference between face left and face right observations of a theodolite is 3'. The erro is",
+            "options_en": [
+                "45\"",
+                "1'30\"",
+                "3'",
+                "0'"
+            ],
+            "answer_en": "1'30\""
+        }
+    ]
+}
