@@ -274,6 +274,46 @@
                 "to solve triangle of error rapidly"
             ],
             "answer_en": "large-scale maps"
+        },
+        {
+            "question_en": "Trigonometric levelling by reciprocal observations",
+            "options_en": [
+                "eliminates errors due to uncertain refraction",
+                "is essentially done in the early morning",
+                "proves to be more accurate than spirit levelling",
+                "All are correct"
+            ],
+            "answer_en": "eliminates errors due to uncertain refraction"
+        },
+        {
+            "question_en": "Which one is a correction to be applied in trigonometric levelling",
+            "options_en": [
+                "correction for dip",
+                "correction for semi-diameter of sun",
+                "axis signal correction",
+                "parallax correction"
+            ],
+            "answer_en": "axis signal correction"
+        },
+        {
+            "question_en": "The process of determining the elevations of stations from vertical angles and geodetic lengths at mean sea level is known as",
+            "options_en": [
+                "levelling",
+                "trigonometric levelling",
+                "triangulation",
+                "hypsometry"
+            ],
+            "answer_en": "trigonometric levelling"
+        },
+        {
+            "question_en": "The permissible average and maximum triangular closure in seconds in a second order triangulation is",
+            "options_en": [
+                "1\" and 3\"",
+                "2\" and 3\"",
+                "3\" and 4\"",
+                "3\" and 5\""
+            ],
+            "answer_en": "3\" and 5\""
         }
     ]
 }
