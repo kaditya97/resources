@@ -114,6 +114,166 @@
                 "0'"
             ],
             "answer_en": "1'30\""
+        },
+        {
+            "question_en": "What will be the correction for curvature for a distance of 1000 m?",
+            "options_en": [
+                "0.0673m",
+                "00.0785m",
+                "78.50m",
+                "6.73m"
+            ],
+            "answer_en": "0.0785m"
+        },
+        {
+            "question_en": "Levelling deals with measurement of",
+            "options_en": [
+                "horizontal plane",
+                "vertical plane",
+                "both horizontal and vertical planes",
+                "inclined plane"
+            ],
+            "answer_en": "vertical plane"
+        },
+        {
+            "question_en": "Reciprocal levelling eliminates the: (1)errors due to earth's curvature (2)errors due to atmospheric refraction (3)mistakes in taking levelling staff readings (4)errors due to line of collimation",
+            "options_en": [
+                "1, 2 and 3",
+                "1, 3 and 4",
+                "2, 3 and 4",
+                "1, 2 and 4"
+            ],
+            "answer_en": "1, 2 and 4"
+        },
+        {
+            "question_en": "The relief of the earth's surface can be represented by",
+            "options_en": [
+                "hachures",
+                "shading",
+                "contours",
+                "All of these"
+            ],
+            "answer_en": "All of these"
+        },
+        {
+            "question_en": "On geographical maps, the relief of the earth's surface is represented by",
+            "options_en": [
+                "contours",
+                "isohytes",
+                "shading and hachures",
+                "Kitro method"
+            ],
+            "answer_en": "shading and hachures"
+        },
+        {
+            "question_en": "A series of closed contours on a map indicates",
+            "options_en": [
+                "a close traverse",
+                "a depression",
+                "a summit",
+                "Either (b) or (c)"
+            ],
+            "answer_en": "Either (b) or (c)"
+        },
+        {
+            "question_en": "At what angle does a ridge line intersect contours?",
+            "options_en": [
+                "90°",
+                "45°",
+                "30°",
+                "0°"
+            ],
+            "answer_en": "90°"
+        },
+        {
+            "question_en": "For mountainous areas, a suitable contour interval may be",
+            "options_en": [
+                "0.2 m",
+                "2 m",
+                "20 m",
+                "200 m"
+            ],
+            "answer_en": "2 m"
+        },
+        {
+            "question_en": "A total station displays",
+            "options_en": [
+                "slope distances",
+                "horizontal distances",
+                "gradients",
+                "countours"
+            ],
+            "answer_en": "horizontal distances"
+        },
+        {
+            "question_en": "EDM in a total-station measures directly",
+            "options_en": [
+                "vertical angles",
+                "horizontal angles",
+                "slope distances",
+                "horizontal distances"
+            ],
+            "answer_en": "slope distances"
+        },
+        {
+            "question_en": "Laser plumet in total-station is used for",
+            "options_en": [
+                "centring",
+                "levelling",
+                "orientation",
+                "bisection of point sighted"
+            ],
+            "answer_en": "centring"
+        },
+        {
+            "question_en": "An ideal transition curve is a",
+            "options_en": [
+                "cubic parabola",
+                "cubic spiral",
+                "parabola",
+                "true spiral"
+            ],
+            "answer_en": "true spiral"
+        },
+        {
+            "question_en": "Different grades are joined together by a",
+            "options_en": [
+                "compound curve",
+                "transition curve",
+                "reverse curve",
+                "vertical curve"
+            ],
+            "answer_en": "vertical curve"
+        },
+        {
+            "question_en": "Generally the transition curve used on highways is",
+            "options_en": [
+                "cubic spiral",
+                "cubic parabola",
+                "Bernoulli's lemniscate",
+                "Both a and b"
+            ],
+            "answer_en": "Bernoulli's lemniscate"
+        },
+        {
+            "question_en": "For setting out a simple curve using two theodolites",
+            "options_en": [
+                "offsets from tangents are required",
+                "offsets from chords produced are required",
+                "deflection angles from Rankine's formula are required",
+                "None of the above are required"
+            ],
+            "answer_en": "deflection angles from Rankine's formula are required"
+        },
+        {
+            "question_en": "Accurate centring in plane table surveys is necessary for",
+            "options_en": [
+                "small-scale maps",
+                "large-scale maps",
+                "filling in details",
+                "to solve triangle of error rapidly"
+            ],
+            "answer_en": "large-scale maps"
         }
     ]
 }
