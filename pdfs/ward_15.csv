@@ -1,0 +1,89 @@
+id,ward_no,Services,service_type,Location_latitude,Location_longitude,Location_altitude,Location_precision,Image,Available_Service,Service_Hour,Ownership,Capacity,Open_Space,Area_of_Open_Space,Capacity_of_Open_Space,Contact_Number,Area,Emergency_Contact_No,Service_Area
+1,15,utility_infrastructure,telecommunication,28.1902127,83.9985308,867.3599878,4.2,1614157214421.jpg,n/a,24,,,,,,,,,
+2,15,utility_infrastructure,telecommunication,28.1939172,83.9966086,867.3599878,4.76,1614157214421.jpg,n/a,24,,,,,,,,,
+3,15,utility_infrastructure,telecommunication,28.1958497,83.991181,867.3599878,4.583,1614157214421.jpg,n/a,24,,,,,,,,,
+5,15,emergency_services,health_facilities,28.2010248,83.9961817,805.1964718,3.36,1614159696635.jpg,Gagan Ayurvedic,12,n/a,1,no,n/a,n/a,n/a,n/a,n/a,n/a
+6,15,public_places,stadium,28.1799488,83.9922768,803.8347023,1.733,1614157567844.jpg,Stadium,n/a,n/a,500,yes,5000,1000,n/a,n/a,n/a,n/a
+7,15,emergency_services,health_facilities,28.1804048,83.9921021,804.2459417,2.24,1614157460961.jpg,RSB home health Clinic,24,n/a,10,no,n/a,n/a,9820000000,n/a,n/a,n/a
+8,15,utility_infrastructure,telecommunication,28.1829723,83.9937368,804.4650158,1.816,1614157214421.jpg,n/a,24,,,,,,,,,
+9,15,public_places,school_colleges,28.1840307,83.9938076,804.6869935,1.983,1614157080250.jpg,View point school,n/a,n/a,1000,no,n/a,n/a,n/a,n/a,n/a,n/a
+10,15,emergency_services,health_facilities,28.1847535,83.9936706,805.1672718,2.225,1614156947362.jpg,Aakash Devi pharmacy,12,n/a,10,no,n/a,n/a,9850000000,n/a,n/a,n/a
+11,15,transportation_faciliity,bus_station,28.1851208,83.9938786,805.32505,2.62,1614156867087.jpg,n/a,n/a,n/a,20,no,n/a,n/a,n/a,n/a,n/a,n/a
+12,15,geographical_features,park,28.1850588,83.9939726,805.0409284,2.28,1614156794068.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,1500,n/a,n/a
+13,15,public_places,school_colleges,28.190286,83.9906028,805.514129,2.283,1614153385847.jpg,Suvatara school,n/a,n/a,1000,no,n/a,n/a,n/a,n/a,n/a,n/a
+14,15,public_places,school_colleges,28.1901906,83.9903913,805.6204052,1.928,1614153329856.jpg,ISMT College,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+15,15,public_places,government_offices,28.1923478,83.9900484,806.2265798,1.98,1614153030410.jpg,Annapurna conservation area project,n/a,n/a,n/a,yes,500,100,n/a,n/a,n/a,n/a
+16,15,emergency_services,health_facilities,28.1936937,83.9899886,805.9911605,2.68,1614152874168.jpg,Hariyokharka hospital,24,n/a,1000,yes,2000,500,61400000,n/a,n/a,n/a
+17,15,public_places,school_colleges,28.1938873,83.9901676,806.3880121,1.98,1614152784985.jpg,Siddha public College,n/a,n/a,1000,no,n/a,n/a,n/a,n/a,n/a,n/a
+18,15,business_centres,local_market,28.1946261,83.9903576,806.0306302,2.833,1614152639244.jpg,Gurung Masala Mill,8,n/a,n/a,no,n/a,n/a,9810000000,n/a,n/a,n/a
+22,15,public_places,government_offices,28.2011178,83.9955349,806.9512308,1.771,1614151586127.jpg,Embassy of India,n/a,n/a,n/a,yes,1000,500,n/a,n/a,n/a,n/a
+23,15,geographical_features,park,28.2011883,83.9954983,807.0548922,1.62,1614151530533.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,500,n/a,n/a
+55,15,security_forces,police_station,28.2000955,84.0000992,753.06,4.984,1614160943177.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+64,15,public_places,religious_places,28.1928081,84.0009806,753.06,8.216,1614158134065.jpg,Church,n/a,n/a,n/a,yes,n/a,n/a,n/a,n/a,n/a,n/a
+65,15,security_forces,police_station,28.174515,84.0028936,753.06,4.766,1614155100486.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,762
+66,15,business_centres,factory,28.1797649,84.00155,753.06,3.966,1614154478719.jpg,GB paper industries,10,n/a,n/a,yes,200,60,n/a,n/a,n/a,n/a
+67,15,business_centres,factory,28.1798501,84.0015234,753.06,3.9,1614154382995.jpg,Drinking water and beverage,10,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+75,15,business_centres,factory,28.1858074,83.9988017,752.9955058,3.9,1614152433924.jpg,Furniture facilities,12,n/a,n/a,yes,250,20,n/a,n/a,n/a,n/a
+76,15,business_centres,local_market,28.1913694,83.9962483,916.5640087,4.588,1614151120986.jpg,Animal breeding,12,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+77,15,business_centres,financial_institude,28.1945652,83.9961,916.5018267,5,1614150807180.jpg,Saving and credit cooperative,8,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+78,15,emergency_services,health_facilities,28.1945964,83.9960887,916.5365726,4.56,1614150744855.jpg,Medicines,15,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+79,15,geographical_features,park,28.1954628,83.992937,916.7088765,4.525,1614149830344.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+80,15,business_centres,factory,28.1965637,83.991119,917.0541436,3.927,1614149342187.jpg,Metal factory,12,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+81,15,geographical_features,park,28.1982233,83.9916282,917.2286537,4.725,1614149088572.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+82,15,business_centres,financial_institude,28.2005771,83.9925233,917.5549057,4.95,1614148639455.jpg,Motor driving school,12,n/a,20,yes,n/a,n/a,n/a,n/a,n/a,n/a
+83,15,public_places,school_colleges,28.2016662,83.9913085,918.1074398,4.225,1614148327628.jpg,School,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+84,15,public_places,school_colleges,28.2022112,83.9874886,918.1700486,4.75,1614147609897.jpg,School,n/a,n/a,n/a,yes,n/a,n/a,n/a,n/a,n/a,n/a
+104,15,business_centres,financial_institude,28.1900564,83.9902081,806.0388114,2.28,1614153249667.jpg,Annapurna saving and cooperative,8,n/a,10,no,n/a,n/a,n/a,n/a,n/a,n/a
+107,15,business_centres,financial_institude,28.1954683,83.9929143,916.7770926,4.592,1614149757953.jpg,Driving school,12,n/a,n/a,yes,n/a,n/a,n/a,n/a,n/a,n/a
+110,15,public_places,school_colleges,28.1962032,83.9911932,797.8599878,12.7,1614157214421.jpg,Marigold Hss(auto bigreza),n/a,n/a,600,yes,n/a,n/a,n/a,n/a,n/a,n/a
+142,15,business_centres,local_market,28.2006572,83.992563,867.3599878,4.92,1614148628104.jpg,Department store,18,n/a,30,no,n/a,n/a,n/a,n/a,n/a,n/a
+143,15,business_centres,factory,28.1981963,83.991545,867.3599878,4.58,1614148879693.jpg,Metal factory,18,n/a,50,no,n/a,n/a,n/a,n/a,n/a,n/a
+144,15,business_centres,local_market,28.1976237,83.9913409,867.3599878,4.78,1614148995120.jpg,Agro farm,18,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+145,15,business_centres,local_market,28.1976275,83.991325,867.3599878,4.2,1614149078174.jpg,Bike workshop,18,n/a,10,no,n/a,n/a,n/a,n/a,n/a,n/a
+146,15,business_centres,local_market,28.196793,83.9913175,867.3599878,4.55,1614149305105.jpg,Driving center,18,n/a,30,yes,150,n/a,n/a,n/a,n/a,n/a
+147,15,public_places,religious_places,28.1959057,83.9956202,867.3599878,4.266,1614150018691.jpg,LaxmiNarayan temple,n/a,n/a,50,no,n/a,n/a,n/a,n/a,n/a,n/a
+148,15,geographical_features,park,28.1947634,83.9963019,867.3599878,4.725,1614150796990.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,30,n/a,n/a
+149,15,public_places,school_colleges,28.1928864,83.9968567,867.3599878,4.15,1614151019198.jpg,Boarding school,n/a,n/a,600,yes,200,n/a,n/a,n/a,n/a,n/a
+150,15,business_centres,local_market,28.1880113,83.9967077,867.3599878,4.3,1614151788495.jpg,Animal and agriculture farm,18,n/a,n/a,yes,300,n/a,n/a,n/a,n/a,n/a
+151,15,emergency_services,health_facilities,28.1878824,83.996647,867.3599878,4.2,1614151900602.jpg,Pharmacy,18,n/a,15,no,n/a,n/a,n/a,n/a,n/a,n/a
+152,15,geographical_features,park,28.1877802,83.9967114,867.3599878,4.64,1614151995824.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,100,n/a,n/a
+153,15,security_forces,police_station,28.1864629,83.9959708,867.3599878,4.383,1614152207732.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+154,15,public_places,religious_places,28.1864689,83.9959746,867.3599878,3.9,1614152262997.jpg,Siddheshwor Shiva panchanga temple,n/a,n/a,100,no,n/a,n/a,n/a,n/a,n/a,n/a
+155,15,geographical_features,park,28.1864567,83.9959767,867.3599878,4.1,1614152331002.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,20,n/a,n/a
+156,15,geographical_features,park,28.1840847,83.9970458,867.3599878,4.16,1614152649220.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,60,n/a,n/a
+157,15,geographical_features,park,28.1836724,83.9968213,867.3599878,4.95,1614152744508.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,25,n/a,n/a
+158,15,utility_infrastructure,tap,28.1815896,83.9975635,867.3599878,1.9,1614153047906.jpg,n/a,24,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+159,15,business_centres,local_market,28.1801936,83.9980145,867.3599878,3.9,1614153416364.jpg,Agricultural and animal farm,18,n/a,n/a,yes,800,n/a,n/a,n/a,n/a,n/a
+160,15,business_centres,local_market,28.1885188,83.9996712,867.3599878,3.9,1614157615165.jpg,Ag farm,18,n/a,n/a,yes,800,n/a,n/a,n/a,n/a,n/a
+161,15,business_centres,local_market,28.19104,84.0000283,867.3599878,4.9,1614157994031.jpg,Agro farm,18,n/a,n/a,yes,500,n/a,n/a,n/a,n/a,n/a
+162,15,public_places,school_colleges,28.1910018,83.9993812,867.3599878,5,1614158105395.jpg,High school,n/a,n/a,600,no,n/a,n/a,n/a,n/a,n/a,n/a
+163,15,public_places,stadium,28.1974045,83.9974503,867.3599878,5,1614160523715.jpg,Futsal,n/a,n/a,24,no,n/a,n/a,n/a,n/a,n/a,n/a
+164,15,business_centres,local_market,28.1991234,83.9984248,867.3599878,4.42,1614160785237.jpg,Party place,24,n/a,400,yes,150,n/a,n/a,n/a,n/a,n/a
+165,15,public_places,school_colleges,28.1992605,83.9992036,867.3599878,4.34,1614160953804.jpg,Golden future hss,n/a,n/a,600,yes,300,n/a,n/a,n/a,n/a,n/a
+202,15,business_centres,local_market,28.2003654,83.9984785,785.6599756,4.097,1614073066841.jpg,Rice mill,12,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+203,15,utility_infrastructure,telecommunication,28.2003376,83.9985258,785.6599756,4.423,1614073166882.jpg,n/a,24,,,,,,,,,
+204,15,emergency_services,health_facilities,28.2003376,83.9976151,785.6599756,4.625,1614073392602.jpg,medical,24,n/a,10,no,n/a,n/a,61400000,n/a,n/a,n/a
+254,15,business_centres,financial_institude,28.2012496,83.9953859,786.5245541,4.576,1614151583462.jpg,sangrila devlopnment bank,6,n/a,n/a,no,n/a,n/a,61400000,n/a,n/a,n/a
+257,15,emergency_services,health_facilities,28.1940532,83.9900728,772.3829348,4.473,1614152774601.jpg,medical shop,8,n/a,n/a,no,n/a,n/a,61400000,n/a,n/a,n/a
+258,15,emergency_services,health_facilities,28.1934518,83.9900424,771.1599756,3.944,1614152894914.jpg,medical shop,18,n/a,n/a,yes,200,n/a,n/a,n/a,n/a,n/a
+259,15,transportation_faciliity,bus_station,28.1801695,83.9922045,762.56,3.915,1614157506378.jpg,n/a,n/a,n/a,n/a,yes,n/a,n/a,n/a,n/a,n/a,n/a
+262,15,emergency_services,health_facilities,28.2008738,83.9924183,797.8599878,5,1614148586360.jpg,Pharmacy,24,n/a,n/a,no,n/a,n/a,9850000000,n/a,n/a,n/a
+263,15,public_places,religious_places,28.1982955,83.9903753,797.8599878,4.5,1614148965335.jpg,Church,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+264,15,public_places,school_colleges,28.1951642,83.9932392,797.8599878,4.833,1614149814183.jpg,St mary secondary school,n/a,n/a,500,yes,n/a,n/a,n/a,n/a,n/a,n/a
+265,15,public_places,government_offices,28.1948084,83.99623,797.8599878,4.283,1614150714415.jpg,Ward office 15,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+266,15,public_places,school_colleges,28.1939331,83.9965203,797.8599878,5,1614150863118.jpg,Rainbow academic secondary boarding,n/a,n/a,1000,no,n/a,n/a,n/a,n/a,n/a,n/a
+267,15,business_centres,local_market,28.1907751,83.996129,797.8599878,5,1614151284014.jpg,Agro farm,24,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+268,15,business_centres,local_market,28.189756,83.9929544,797.8599878,4.9,1614151794258.jpg,Puspa sagar krishi farm,12,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+269,15,transportation_faciliity,bus_station,28.1890587,83.9906496,797.8599878,5,1614152083298.jpg,n/a,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+270,15,utility_infrastructure,tap,28.1890874,83.9905053,797.8599878,5,1614152163168.jpg,n/a,24,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+271,15,business_centres,financial_institude,28.1889079,83.9909791,797.8599878,5,1614152312978.jpg,Nepal bank,8,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+272,15,public_places,school_colleges,28.1887959,83.9907896,797.8599878,4.958,1614152588954.jpg,Foresty campus,n/a,n/a,400,yes,n/a,n/a,n/a,n/a,n/a,n/a
+273,15,business_centres,local_market,28.1782364,83.9985257,797.8599878,4.8,1614154390625.jpg,Fulbari resort,24,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+276,15,public_places,school_colleges,28.1867139,83.9979942,756.1648061,5,1614158296831.jpg,Hastakala training centre,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+277,15,geographical_features,park,28.1877224,83.996689,756.4468249,4.836,1614158496299.jpg,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+278,15,public_places,government_offices,28.1948453,83.9964461,758.7334352,4.851,1614159253142.jpg,Pasu sewa karyalaya,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+279,15,business_centres,financial_institude,28.1948902,83.9964335,758.6856913,4.944,1614159355692.jpg,Ime pay and tour and travel,8,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+280,15,utility_infrastructure,tap,28.1952173,83.9965043,758.9189714,4.75,1614159491483.jpg,n/a,24,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+281,15,business_centres,local_market,28.1955714,83.9967843,758.6389748,4.967,1614159627179.jpg,Pasu palan farma,12,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+282,15,public_places,religious_places,28.197455,83.9976101,759.3708251,4.75,1614160511108.jpg,Temple,n/a,n/a,n/a,no,n/a,n/a,n/a,n/a,n/a,n/a
+283,15,public_places,school_colleges,28.20008,83.9976606,760.2722549,4.833,1614160809194.jpg,Lekhnath vibhuti  secondary boarding school,n/a,n/a,500,no,n/a,n/a,n/a,n/a,n/a,n/a
