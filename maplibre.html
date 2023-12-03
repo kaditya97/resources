@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sea Level Rise Simulation</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link href="https://unpkg.com/maplibre-gl@2.2.0/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@2.2.0/dist/maplibre-gl.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .map-overlay {
+      font: bold 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      position: absolute;
+      width: 260px;
+      top: 5px;
+      left: 0;
+      padding: 10px;
+    }
+
+    .map-overlay .map-overlay-inner {
+      background-color: #fff;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      padding: 10px;
+      margin-bottom: 10px;
+      line-height: 15px;
+    }
+
+    .map-overlay label {
+      display: block;
+      margin: 0 0 0px;
+      font-size: 14px;
+      top: 100px;
+      left: 10px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .map-overlay input {
+      background-color: transparent;
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      cursor: ew-resize;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div class="map-overlay top">
+    <div class="map-overlay-inner">
+      <h2>Sea Level Rise Simulation</h2>
+      <label>Sea Level: <span id="elevation-slider-value">0m</span></label>
+      <input id="elevation-slider" type="range" min="0" max="100" step="1" value="0">
+    </div>
+  </div>
+  <script>
+    const map = new maplibregl.Map({
+      container: "map",
+      style: 'https://tile.openstreetmap.jp/styles/maptiler-basic-ja/style.json',
+      hash: true,
+      center: {
+        lat: 27.828,
+        lng: 80.048
+      },
+      zoom: 5.26,
+      language: 'en',
+      attributionControl: false
+    });
+
+    // Zoom/Rotate
+    map.addControl(new maplibregl.NavigationControl());
+
+    // Turning full screen mode on and off
+    map.addControl(new maplibregl.FullscreenControl());
+
+    // Current position display
+    map.addControl(new maplibregl.GeolocateControl({
+      positionOptions: {
+        enableHighAccuracy: false
+      },
+      fitBoundsOptions: { maxZoom: 18 },
+      trackUserLocation: true,
+      showUserLocation: true
+    }));
+
+    // Scale display
+    map.addControl(new maplibregl.ScaleControl({
+      maxWidth: 200,
+      unit: 'metric'
+    }));
+
+    // Attribution Collapse view
+    map.addControl(new maplibregl.AttributionControl({
+      compact: true,
+      customAttribution: '（<a href="https://github.com/kaditya97" target="_blank">Github</a>） '
+    }));
+
+    // Run when map loads
+    map.on('load', () => {
+      // Elevation tile DEM source
+      map.addSource('terrainSource', {
+        'type': 'raster-dem',
+        'tiles': ['https://vtc-cdn.maptoolkit.net/terrainrgb/{z}/{x}/{y}.webp'],
+        'encoding': 'mapbox',
+        'maxzoom': 14,
+        'minzoom': 4
+      });
+      
+      // Elevation tile DEM set
+      map.setTerrain({ 'source': 'terrainSource', 'exaggeration': 1 });
+
+      map.addControl(
+            new maplibregl.TerrainControl({
+                source: 'terrainSource',
+                exaggeration: 1
+            })
+        );
+
+      // elevation tile raster source
+      map.addSource('gsi-terrain-raster', {
+        "type": "raster",
+        "minzoom": 1,
+        "maxzoom": 18,
+        "tiles": ["https://optgeo.github.io/10b512-7-113-50/zxy/{z}/{x}/{y}.webp"],
+        "tileSize": 512,
+      })
+
+      // Elevation resolution
+      // const u = 0.01
+      const u = 0.1
+
+      // Elevation tile raster layer
+      map.addLayer({
+        id: 'gsi-terrain-raster',
+        source: 'gsi-terrain-raster',
+        type: 'raster',
+        paint: {
+          // Specify transparency for all elevations in the initial state
+          'raster-color': [
+            'interpolate',
+            ['linear'],
+            ['raster-value'],
+            0, 'transparent',
+            128, 'transparent'
+          ],
+          'raster-color-mix': [
+            /*
+            2 ** 16 * 255 * u,
+            2 ** 8 * 255 * u,
+            255 * u,
+            0
+            */
+            2 ** 16 * 255 * u,
+            2 ** 8 * 255 * u,
+            255 * u,
+            -10000
+          ],
+          'raster-color-range': [0, 128],
+          'raster-opacity': 0.7,
+          'raster-resampling': 'nearest'
+        }
+      })
+
+      // Control color according to altitude with slider
+      document.getElementById('elevation-slider').addEventListener('input', function (e) {
+        const elevation = parseFloat(e.target.value);
+        document.getElementById('elevation-slider-value').innerText = elevation + 'm';
+
+        // Update color of elevation tile layer
+        map.setPaintProperty('gsi-terrain-raster', 'raster-color', [
+          'step',
+          ['raster-value'],
+          '#000098', elevation,   // Color when elevation is less than or equal to elevation
+          'transparent'           // Color when elevation is higher than elevation
+        ]);
+
+      });
+
+    })
+  </script>
+
+</body>
+
+</html>
